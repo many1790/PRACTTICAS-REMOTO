@@ -8,19 +8,59 @@
 </head>
 <body>
     <header class="header">
+        <div class="div__logo">
+        
+    </div>
+        <h1>PRACTICAS DEL VIERNES</h1>
         <nav class="navbar">
-            <a class="nav__link" href="">1</a>
-            <a class="nav__link" href="">2</a>
-            <a class="nav__link" href="">3</a>
+            <div class="nav"><a class="nav__link" href="#info">INFORMACION</a></div>
+            <div class="nav"><a class="nav__link" href="#booking">RESERVA</a></div>
+            <div class="nav"><a class="nav__link" href="#contact">CONTACTO</a></div>
+            
+            
         </nav>
     </header>
-    <main class="main">
-        <section id="info"></section>
-        <section id="booking"></section>
-        <section id="contact"></section>
-    </main>
-    <footer class="footer">
+    <main>
+        <div class="main">
+        <section id="info"> <p>Hoy hemos trabajado en la práctica grupal de desarrollo web siguiendo la metodología Agile. Cada integrante ha creado su propia rama feature_NombreApellido a partir de la rama develop del repositorio del grupo. Hemos diseñado y estructurado nuestra web con:
 
+            Un header con logo, lema y navegación a secciones internas.
+            
+            Un main con tres secciones: información, reservas y contacto.
+            
+            Un footer con nuestro nombre y enlace a GitHub.
+            
+            Durante el desarrollo, se realizaron commits frecuentes para guardar los avances y, al finalizar, cada miembro creó un Pull Request hacia la rama develop del repositorio original.
+            
+            Esta práctica nos permitió practicar la colaboración en equipo, el control de versiones con Git y GitHub, así como aplicar nuestros conocimientos de HTML y CSS en un proyecto real. <br> </p></section>
+        
+            <section id="booking">
+            <h2>Selecciones las fechas de la reserva</h2>
+            <div class="divb">
+            <label for="entrada">Entrada:</label>
+<input type="date" name="entrada" id="entrada">
+
+<label for="salida">Salida:</label>
+<input type="date" name="salida" id="salida">
+</div>
+        </section>
+        <section id="contact">
+            <h2>Vias de contacto</h2>
+            <div class="form">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Apellidos">
+            
+            <input type="number" placeholder="Phone Number">
+        </div>
+        <textarea placeholder="Mensaje..." id="area" ></textarea>
+        </section>
+    </div>
+    </main>
+
+    <footer class="footer">
+        <h2>Isaac Omar Sierra Figueroa@</h2>
+        <a title="profile" href="https://github.com/many1790">GITHUB</a>
     </footer>
 
 
